@@ -53,7 +53,6 @@
                 if (hodorSpeak) {
                     hodors = makeItHodor(hodors);
                 }
-                console.log(hodors);
                 $element.empty().html(hodors);
             }
 
