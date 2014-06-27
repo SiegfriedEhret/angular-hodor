@@ -2,6 +2,8 @@
 
 ![Hodor !](https://raw.githubusercontent.com/SiegfriedEhret/angular-hodor/master/demo/oatmeal_hodor.jpg)
 
+The demo is [here](https://dev.ehret.me/angular-hodor/demo/).
+
 # hodor
 
 The default ng-hodor directive replace the $element content with "hodor".
