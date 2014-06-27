@@ -1,0 +1,36 @@
+{
+  "name": "angular-hodor",
+  "version": "0.1.0",
+  "description": "HODOR !",
+  "main": "angular-hodor.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SiegfriedEhret/angular-hodor.git"
+  },
+  "keywords": [
+    "hodor"
+  ],
+  "author": "Siegfried Ehret <siegfried@ehret.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiegfriedEhret/angular-hodor/issues"
+  },
+  "homepage": "https://github.com/SiegfriedEhret/angular-hodor",
+  "devDependencies": {
+    "connect": "^3.0.1",
+    "connect-livereload": "^0.4.0",
+    "gulp": "^3.8.1",
+    "gulp-connect": "^2.0.5",
+    "gulp-load-plugins": "^0.5.2",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-size": "^0.4.0",
+    "gulp-uglify": "^0.3.1",
+    "karma": "^0.12.16",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "open": "0.0.5"
+  }
+}

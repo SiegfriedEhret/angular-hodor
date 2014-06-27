@@ -1,0 +1,6 @@
+{
+    "strict": true,
+    "predef": [
+        "angular"
+    ]
+}

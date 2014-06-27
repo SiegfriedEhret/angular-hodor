@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ng-hodor !</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="../angular-hodor.js"></script>
+    <script>
+        angular.module('test', ['ngHodor'])
+    </script>
+</head>
+<body ng-app="test">
+<header>
+
+</header>
+<main>
+    <h1><img src="oatmeal_hodor.jpg" alt="ng-hodor"/></h1>
+
+    <h2>hodor</h2>
+
+    <p>The default <code>ng-hodor</code> directive replace the $element content with "hodor".</p>
+
+    <pre class="code-block with-border" ng-non-bindable>
+&lt;div ng-hodor&gt;
+    Plop
+&lt;/div&gt;</pre>
+
+    <p>will be displayed as:</p>
+
+    <div class="with-border" ng-hodor>
+        Plop
+    </div>
+
+    <h2>Hodor</h2>
+
+    <p>Give it some hodoring:</p>
+
+    <pre class="code-block with-border" ng-non-bindable>
+&lt;div ng-hodor ng-hodor-hodor="10"&gt;
+    Plop
+&lt;/div&gt;</pre>
+
+    <p>and it will</p>
+
+    <div class="with-border" ng-hodor ng-hodor-hodor="10">
+        Plop
+    </div>
+
+    <h2>HODOR</h2>
+
+    Make it hodor speak with:
+
+    <pre class="code-block with-border" ng-non-bindable>
+&lt;div ng-hodor="hodor" ng-hodor-hodor="100"&gt;
+    Plop
+&lt;/div&gt;</pre>
+
+    <p>Aaaaand here it comes !</p>
+
+    <div class="with-border" ng-hodor="hodor" ng-hodor-hodor="100">
+        Plop
+    </div>
+
+</main>
+<footer>
+    <ul>
+        <li>Made with hodor by <a href="https://twitter.com/SiegfriedEhret" target="_blank">@SiegfriedEhret</a></li>
+        <li>Image from <a href="http://theoatmeal.com/quiz/got_character" target="_blank">The Oatmeal</a></li>
+        <li><a href="http://www.dafont.com/burst-my-bubble.font" target="_blank">Burst my bubble font</a></li>
+    </ul>
+</footer>
+</body>
+</html>
